@@ -1,0 +1,146 @@
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+.chicken {
+  border: 1.5px solid black;
+  text-align: center;
+  background-color: rgb(245, 151, 167);
+  float: right;
+  width: 20%;
+}
+
+.beef {
+  border: 1.5px solid black;
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(165, 31, 31);
+  float: right;
+  width: 20%;
+}
+
+.sushi {
+  border: 1.5px solid black;
+  text-align: center;
+  background-color: rgb(228, 195, 51);
+  float: right;
+  width: 20%;
+}
+
+@media (min-width: 992px) {
+  .span1 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    margin-top: 5ch;
+  }
+
+  .span2 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    margin-top: 5ch;
+  }
+
+  .span3 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    margin-top: 5ch;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .span1 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+
+  .span2 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+
+  .span3 {
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 88%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+}
+
+@media (max-width: 767px) {
+  .span1 {
+    overflow: hidden;
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 88%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+
+  .span2 {
+    overflow: hidden;
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 88%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+
+  .span3 {
+    overflow: hidden;
+    background-color: rgb(132, 131, 133);
+    font-family: cursive;
+    display: inline-block;
+    width: 88%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 5ch;
+    margin-top: 5ch;
+  }
+}
